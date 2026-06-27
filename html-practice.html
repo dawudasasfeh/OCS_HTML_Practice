@@ -340,45 +340,64 @@
             </section>   
         </section>
         <section class="module"> <!--Module 5 section-->
-            <h2 class="module-title" >Module 3: Media and Embedded Content</h2><!--Module 3 title-->
+            <h2 class="module-title" > Module 5: HTML5 Attributes, Block/Inline, and Semantics</h2><!--Module 3 title-->
             
             <section class="sections"> <!--sections-->
                 <section class="section"> <!--section 1-->
-                    <h3 class="section-title" >3.1 Audio Element</h3><!--section 3.1 header-->
+                    <h3 class="section-title" >5.1 Common Attributes</h3><!--section 5.1 header-->
                     <ul>
-                        <li>What does title tag do?</li><!--Explain <audio>-->
-                        <li>What does meta tag do?</li><!--Explain attributes: controls, autoplay, muted, loop-->
-                        <li>What does link tag do?</li> <!--Show example-->
+                        <li>Common tags</li><!--- Explain: href, src, width, height-->
+<pre>    - href : where should you be navigated to when pressing on a link.
+    - src : give me the file path to display a picture or a video.
+    - width : changes the width of the element on screen.
+    - height : changes the height of the element on screen.</pre>                        
                     </ul>
                 </section>
                 <section class="section"> <!--section 2-->
-                    <h3 class="section-title" >3.2 Video Element</h3><!--section 2.2 header-->
+                    <h3 class="section-title" >5.2 Block vs Inline</h3><!--section 5.2 header-->
                     <ul>
-                        <li></li> <!--Explain <video>-->
-                        <li></li> <!--Explain controls-->
-                        <li></li> <!--Show example-->
+                        <li>What is &lt;div&gt;?</li> <!--Explain <div>-->
+<pre>    &lt;div&gt; is a block-level element used as a container to group large sections of code or layout together.</pre>                            
+                        <li>What is &lt;span&gt;?</li> <!--Explain <span>-->
+<pre>    &lt;span&gt; is an inline-level element used as a container to group or style small pieces of text inside a sentence.</pre>                            
+                        <li>ex:</li> <!--Show examples-->
+<pre>    Here is how &lt;div&gt; and &lt;span&gt; boxes look on screen:</pre>
+                            <div style="background: yellow;">&lt;div&gt;</div>
+                            <span style="background: red;">&lt;span&gt;</span>
+                            <span style="background: blue;">&lt;span&gt;</span>                        
                     </ul>
                 </section>
                 <section class="section"> <!--section 3-->
-                    <h3 class="section-title" >3.3 iframe</h3><!--section 3.3 header-->
+                    <h3 class="section-title" >5.3 Semantic HTML</h3><!--section 5.3 header-->
                     <ul>
-                        <li></li> <!--Explain <iframe>-->
-                        <li></li> <!--Show example embedding YouTube video-->
-                        <li></li> <!--Explain attributes: width, height, src-->
+                        <li>What are structural tags?</li> <!--- Explain and show examples: `<header>`, `<nav>`, `<section>`, `<article>`, `<aside>`, `<footer>`-->
+<pre>    - &lt;header&gt; : top section of the page for titles and logos.
+    - &lt;nav&gt; : section that contain the navigation links.
+    - &lt;section&gt; : groups standalone topics together.
+    - &lt;article&gt; : content that makes sense on its own like blog posts.
+    - &lt;aside&gt; : side content that is weakly related to the page.
+    - &lt;footer&gt; : bottom section for copyright or contact info.
+
+    ex layout:
+<code>    &lt;header&gt; &lt;nav&gt;Links&lt;/nav&gt; &lt;/header&gt;
+    &lt;main&gt;
+        &lt;section&gt;
+            &lt;article&gt;Content here&lt;/article&gt;
+        &lt;/section&gt;
+        &lt;aside&gt;Sidebar&lt;/aside&gt;
+    &lt;/main&gt;
+    &lt;footer&gt;Footer details&lt;/footer&gt;</code></pre>                    
                     </ul>
                 </section>
                 <section class="section"> <!--section 4-->
-                    <h3 class="section-title" >1.4 HTML Paragraphs</h3><!--section 1.4 header-->
+                    <h3 class="section-title" >5.4 Accessibility and Readability</h3><!--section 5.4 header-->
                     <ul>
-                        <li></li> <!--Explain <p>-->
-                        <li></li> <!--Explain <br>-->
-                        <li>
-                            <pre>
-                                <code>
-                                    
-                                </code>
-                            </pre>
-                        </li> <!--Show example-->
+                        <li>Why semantic HTML is important?</li> <!--Explain why semantic HTML is important-->
+<pre>    It gives meaning to the code layout so developers can understand the page structure instantly without reading messy code.</pre>
+                        <li>What are the accessibility benefits?</li> <!--Explain accessibility benefits-->
+<pre>    It helps search engines (SEO) rank your page better and lets screen readers read your site out loud correctly for blind users.</pre>
+                        <li>Semantic layout example:</li> <!--Show example semantic layout-->
+<pre>    Look at the layout example code block provided inside section 5.3 above.</pre>
                     </ul>
                 </section>
             </section>   
