@@ -272,45 +272,69 @@
             </section>   
         </section>
         <section class="module"> <!--Module 4 section-->
-            <h2 class="module-title" >Module 3: Media and Embedded Content</h2><!--Module 3 title-->
+            <h2 class="module-title" >Module 4: HTML5 Forms & User Input</h2><!--Module 4 title-->
             
             <section class="sections"> <!--sections-->
                 <section class="section"> <!--section 1-->
-                    <h3 class="section-title" >3.1 Audio Element</h3><!--section 3.1 header-->
+                    <h3 class="section-title" >4.1 Input Types</h3><!--section 4.1 header-->
                     <ul>
-                        <li>What does title tag do?</li><!--Explain <audio>-->
-                        <li>What does meta tag do?</li><!--Explain attributes: controls, autoplay, muted, loop-->
-                        <li>What does link tag do?</li> <!--Show example-->
+                        <li>HTML input types:</li><!--- Explain and show examples:text, password, email, number, date, radio, checkbox, file-->
+<pre>    - text : &lt;input type="text"&gt; Creates a text field. <input type="text" placeholder="Text field">
+    - password : &lt;input type="password"&gt; Hides input characters. <input type="password" placeholder="Password">
+    - email : &lt;input type="email"&gt; Requires email format. <input type="email" placeholder="name@email.com">
+    - number : &lt;input type="number"&gt; Only allows numbers. <input type="number" style="width: 60px;">
+    - date : &lt;input type="date"&gt; Opens a calendar box. <input type="date">
+    - radio : &lt;input type="radio"&gt; Choose only one option. <input type="radio" checked>
+    - checkbox : &lt;input type="checkbox"&gt; Check multiple options. <input type="checkbox" checked>
+    - file : &lt;input type="file"&gt; Uploads local files. <input type="file" style="max-width: 180px;"></pre>                       
                     </ul>
                 </section>
                 <section class="section"> <!--section 2-->
-                    <h3 class="section-title" >3.2 Video Element</h3><!--section 2.2 header-->
+                    <h3 class="section-title" >4.2 Form Elements</h3><!--section 4.2 header-->
                     <ul>
-                        <li></li> <!--Explain <video>-->
-                        <li></li> <!--Explain controls-->
-                        <li></li> <!--Show example-->
+                        <li>HTML form elements:</li> <!--- Explain and show examples:`<label>`, `<select>`, `<textarea>`, `<button>`, `<fieldset>`, `<legend>`, `<datalist>`, `<option>`, `<optgroup>`-->
+<pre>    - label : &lt;label&gt; Adds a label to form controls. <label>Sample Label</label>
+    - select : &lt;select&gt; Creates a dropdown menu. <select><option>Select option</option></select>
+    - textarea : &lt;textarea&gt; Creates multi-line text input. <textarea style="vertical-align: middle; height: 24px; width: 120px;" placeholder="Textarea"></textarea>
+    - button : &lt;button&gt; Creates a clickable button. <button type="button">Click Me</button>
+    - fieldset : &lt;fieldset&gt; Groups related elements together. <fieldset style="display: inline-block; padding: 5px;"><legend>Legend</legend>Content</fieldset>
+    - legend : &lt;legend&gt; Adds a title to a fieldset. (See example box directly above)
+    - datalist : &lt;datalist&gt; Suggests options for an input. <input list="browsers" placeholder="Type C..."><datalist id="browsers"><option value="Chrome"><option value="Firefox"></datalist>
+    - option : &lt;option&gt; Defines an item inside a select box. (See select menu or optgroup list)
+    - optgroup : &lt;optgroup&gt; Groups related options in select menu. <select><optgroup label="Frontend"><option>HTML</option><option>CSS</option></optgroup></select></pre>                            
                     </ul>
                 </section>
                 <section class="section"> <!--section 3-->
-                    <h3 class="section-title" >3.3 iframe</h3><!--section 3.3 header-->
+                    <h3 class="section-title" >4.3 Form Attributes</h3><!--section 4.3 header-->
                     <ul>
-                        <li></li> <!--Explain <iframe>-->
-                        <li></li> <!--Show example embedding YouTube video-->
-                        <li></li> <!--Explain attributes: width, height, src-->
+                        <li>HTML form attributes:</li> <!--- Explain: action, method, target, autocomplete-->
+<pre>    - action : where should the form data be sent when pressing submit.
+    - method : what is the method used to send form data, like GET or POST.
+    - target : where should that link open? in the same tab , new tab? "_blank" means new tab.
+    - autocomplete : tells the browser to automatically fill the inputs based on user history or not.
+
+    ex:
+<code>    &lt;form action="/submit-form" method="POST" target="_blank" autocomplete="on"&gt;
+        &lt;label&gt;Name:&lt;/label&gt;
+        &lt;input type="text" name="username"&gt;
+        &lt;button type="submit"&gt;Submit&lt;/button&gt;
+    &lt;/form&gt;</code></pre>                       
+
                     </ul>
                 </section>
                 <section class="section"> <!--section 4-->
-                    <h3 class="section-title" >1.4 HTML Paragraphs</h3><!--section 1.4 header-->
+                    <h3 class="section-title" >4.4 Input Attributes</h3><!--section 4.4 header-->
                     <ul>
-                        <li></li> <!--Explain <p>-->
-                        <li></li> <!--Explain <br>-->
-                        <li>
-                            <pre>
-                                <code>
-                                    
-                                </code>
-                            </pre>
-                        </li> <!--Show example-->
+                        <li>HTML input attributes:</li> <!--- Explain and show examples: value, readonly, disabled, size, maxlength, min / max, multiple, placeholder, required-->
+<pre>    - value : &lt;input value="text"&gt; sets the default text inside the field. <input type="text" value="Default Value">
+    - readonly : &lt;input readonly&gt; makes input text uneditable but you can still select it. <input type="text" value="Read only text" readonly>
+    - disabled : &lt;input disabled&gt; locks the field completely so you cant press on it. <input type="text" value="Locked field" disabled>
+    - size : &lt;input size="10"&gt; changes the width of the input box. <input type="text" size="10" placeholder="Size 10">
+    - maxlength : &lt;input maxlength="4"&gt; limits how many letters you can type inside it. <input type="text" maxlength="4" placeholder="Max 4 letters">
+    - min / max : &lt;input min="1" max="5"&gt; sets the limits for a number or date. <input type="number" min="1" max="5" value="3" style="width: 50px;">
+    - multiple : &lt;input multiple&gt; lets you upload more than one file at once. <input type="file" multiple style="max-width: 180px;">
+    - placeholder : &lt;input placeholder="..."&gt; gives a faint hint text inside the field before you type. <input type="text" placeholder="This is a hint text">
+    - required : &lt;input required&gt; forces you to fill the field before you can submit the form. <form style="display: inline;" onsubmit="alert('Passed!'); return false;"><input type="text" placeholder="Required field" required style="width: 100px;"> <button type="submit">Test</button></form></pre>                        
                     </ul>
                 </section>
             </section>   
