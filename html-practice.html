@@ -52,8 +52,8 @@
                         <li>What are HTML attributes?</li> <!--Define Attribute-->
 <pre>    Attributes are like specifing some extra functionality to a tag , like for anchors where should they go , should it open new tap or on the same tap , and for pic/video it can specify the width and height for them</pre>
                         <li>ex:</li> <!--Give examples using: href, src, alt, class, id-->
-<pre><code>    &lt;a href="https://www.google.com/" target="_blank"&gt;Google&lt;/a&gt;
-
+<pre><code>    <a href="https://www.google.com/" target="_blank">Google</a>
+    &lt;a href="https://www.google.com/" target="_blank"&gt;Google&lt;/a&gt;
     element: The whole line.
     starting tag: &lt;a href="https://www.google.com/" target="_blank"&gt;.
     attributes : href="https://www.google.com/" target="_blank".
@@ -62,6 +62,8 @@
     content : Google.
     closing tag : &lt;/a&gt;.
 
+
+    <img src="image.png" alt="This is a horse image" id="horse-image" class="image">
     &lt;img src="image.png" alt="This is a horse image" id="horse-image" class="image"&gt;
 
     element: The whole line.
@@ -81,36 +83,45 @@
                 <section class="section"> <!--section 3-->
                     <h3 class="section-title" >1.3 HTML Headings</h3><!--section 1.3 header-->
                     <ul>
-                        <li></li> <!--Explain <h1> to <h6>-->
-                        <li>
-                            <pre>
-                                <code>
-                                    
-                                </code>
-                            </pre>
-                        </li> <!--Show examples-->
-                        <li></li> <!--Explain when to use each-->
+                        <li>what are HTML headings?</li> <!--Explain <h1> to <h6>-->
+<pre>    HTML headings are headings with different size and they are all bold, there is two purposes of this first for user visibilty, second to help search engines to understand the structure and importance, h1 is the largest and most important and h6 is the smallest and least important</pre>
+                        <li> ex:</li> <!--Show examples-->
+                            <ul>
+                                <li><h1>h1</h1></li>
+                                <li><h2>h2</h2></li>
+                                <li><h3>h3</h3></li>
+                                <li><h4>h4</h4></li>
+                                <li><h5>h5</h5></li>
+                                <li><h6>h6</h6></li>
+                            </ul>
+                        <li>When to use them?</li> <!--Explain when to use each-->
+<pre>    h1 : titles
+    h2 : subtitles
+    h3 : sub sections
+    .
+    .
+    . 
+</pre>
                     </ul>
                 </section>
                 <section class="section"> <!--section 4-->
                     <h3 class="section-title" >1.4 HTML Paragraphs</h3><!--section 1.4 header-->
                     <ul>
-                        <li></li> <!--Explain <p>-->
-                        <li></li> <!--Explain <br>-->
-                        <li>
-                            <pre>
-                                <code>
-                                    
-                                </code>
-                            </pre>
-                        </li> <!--Show example-->
+                        <li>What is HTML paragraph</li> <!--Explain <p>-->
+<pre>    HTML paragraph contains the true content inside the page unlike the headings it doesnt help the SEO to understand the importance, it display the content and thats it, also it is a Block-Level which means it takes the full width of the screen and it start a new line before and after to make the content on a line by it self</pre>
+                        <li>How to make a new line inside the paragraph</li> <!--Explain <br>-->
+<pre>    We can use &lt;br&gt; tag to make a new line inside a paragraph just like "\n" in programming languages, also it is a self closing tag so no need for &lt;/br&gt;</pre>
+                        <li>ex:</li> <!--Show example-->
+<pre>   "&lt;p&gt;This is &lt;br&gt; a paragraph&lt;/p&gt;" will look like this:<p>This is<br>a paragraph</p></pre>
                     </ul>
                 </section>
                 <section class="section"> <!--section 5-->
                     <h3 class="section-title" >1.5 HTML Text Formatting</h3><!--section 1.5 header-->
                     <ul>
-                        <li></li> <!--Explain: <b>, <strong>, <i>, <em>-->
-                        <li></li> <!--Explain the difference between semantic and non-semantic tags-->
+                        <li>What are the formatting types?</li> <!--Explain: <b>, <strong>, <i>, <em>-->
+<pre>    HTML have formatting types like bold, italic, strok out, underline  and the tags like &lt;b&gt; for bold, &lt;strong&gt; for bold, &lt;i&gt; for italic, &lt;em&gt; for italic</pre>                            
+                        <li>So what is the difference between &lt;b&gt;, and &lt;strong&gt; if they are both for bolding a text?</li> <!--Explain the difference between semantic and non-semantic tags-->
+<pre>    The difference is HTML have a semantic tags and non-semantic tags, the main difference between them is are the tag meaningful to developer (with no previous knowledge) and SEO? if yes it is semantic like &lt;strong&gt; and &lt;em&gt; if no it is non-semantic like &lt;b&gt; and &lt;i&gt; do you see how &lt;b&gt; is just like b so it isnt meaningful</strong></pre>
                     </ul>
                 </section>
                 <section class="section"> <!--section 6-->
