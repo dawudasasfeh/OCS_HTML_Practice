@@ -50,14 +50,32 @@
                         <li>What are HTML elements?</li> <!--Define HTML Element-->
 <pre>    Elements in html are like telling the browser to render this section in a certain way (tags) with extra functionality (attributes) with a certain content.</pre>
                         <li>What are HTML attributes?</li> <!--Define Attribute-->
-<pre>    Attributes are like specifing some extra functionality to a tag , like for anchors where should they go , should it open new tap or on the same tap , and for pic/video it can specify the width and height for them.</pre>
-                        <li>
-                            <pre>
-                                <code>
-                                    
-                                </code>
-                            </pre>
-                        </li> <!--Give examples using: href, src, alt, class, id-->
+<pre>    Attributes are like specifing some extra functionality to a tag , like for anchors where should they go , should it open new tap or on the same tap , and for pic/video it can specify the width and height for them</pre>
+                        <li>ex:</li> <!--Give examples using: href, src, alt, class, id-->
+<pre><code>    &lt;a href="https://www.google.com/" target="_blank"&gt;Google&lt;/a&gt;
+
+    element: The whole line.
+    starting tag: &lt;a href="https://www.google.com/" target="_blank"&gt;.
+    attributes : href="https://www.google.com/" target="_blank".
+        href : it stands for hyperlink refernce, which means where should you be navigated to when pressing on Google.
+        target : it means where should that link open? in the same tap , new tap? "_blank" means new tap.
+    content : Google.
+    closing tag : &lt;/a&gt;.
+
+    &lt;img src="image.png" alt="This is a horse image" id="horse-image" class="image"&gt;
+
+    element: The whole line.
+    starting tag: The whole line becasue this is a self closing tag
+    attributes : href="https://www.google.com/" target="_blank".
+        src : what is the src path? like give me the file path to display it.
+        alt : what should be displayed if the image couldnt be fetched? (a fallback string).
+        id : this is helpful to style the element using CSS , it is unique.
+        class : this is also helpful to style the element using CSS , but it isnt unique, you can use it for multiple elements
+    content : the image it self (no other content)
+    closing tag : this is a self closing tag
+
+
+</code></pre>                    
                     </ul>
                 </section>
                 <section class="section"> <!--section 3-->
