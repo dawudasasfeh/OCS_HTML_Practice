@@ -137,7 +137,7 @@
                         <div style="background: blue">&lt;div&gt;</div>
                         <span style="background: olivedrab;">&lt;span&gt;</span>
                         <span style="background: red;">&lt;span&gt;</span> <br><br>                        
-                        <li>what is the difference?</li> <!--Explain the difference-->
+                        <li>What is the difference?</li> <!--Explain the difference-->
 <pre>    The difference is the size of the container that contain the block elements or inline elements.</pre>                        
                     </ul>
                 </section>
@@ -150,42 +150,113 @@
                 <section class="section"> <!--section 1-->
                     <h3 class="section-title" >2.1 Meta Tags</h3><!--section 2.1 header-->
                     <ul>
-                        <li>What is html structure ? </li><!--Explain the basic HTML structure-->
-<pre><code>
-</code></pre>
-                        <li>What are the main tags in HTML</li><!--Explain: <!DOCTYPE html>, <html>, <head>, <body>-->
-<pre></pre>
-                        <li>ex:</li> <!--Create a simple HTML page example-->
-<pre><code>
-</code></pre>
+                        <li>What does title tag do?</li><!--Explain <title>-->
+<pre>    &lt;title&gt; tag is for adding a title at the tap, so when you look at the tap it should show a title like "topic - google search" for google search site</pre>
+                        <li>What does meta tag do?</li><!--Explain <meta>-->
+<pre>    &lt;meta&gt; tag is a metadata, like an information about the document page, such as the UTF-8 to support arabic and english letter and so on.</pre>                        
+                        <li>What does link tag do?</li> <!--Explain <link>-->
+<pre>    &lt;link&gt; tag is to link files like CSS file, favicon, and so on.</pre>                        
+                        <li>how to add a favicon?</li> <!--Add favicon example-->
+<pre>    &lt;link rel="icon" href="icon.svg" type="image/x-icon"&gt;</pre>                        
                     </ul>
                 </section>
                 <section class="section"> <!--section 2-->
-                    <h3 class="section-title" >1.2 HTML Elements / Attributes</h3><!--section 1.2 header-->
+                    <h3 class="section-title" >2.2 HTML Comments</h3><!--section 2.2 header-->
                     <ul>
-                        <li></li> <!--Define HTML Element-->
-                        <li></li> <!--Define Attribute-->
-                        <li>
-                            <pre>
-                                <code>
-                                    
-                                </code>
-                            </pre>
-                        </li> <!--Give examples using: href, src, alt, class, id-->
+                        <li>What are comments?</li> <!--Explain comment syntax-->
+<pre>    Comments are notes in the code that are ignore by browser.
+    the structure of the comments is like this:
+        &lt;!--
+            Comment
+        --&gt;</pre>                        
+                        <li>ex:</li> <!--Show example-->
+<pre>   &lt;section class="section"&gt; &lt;!--section 3--&gt;
+</pre>                        
+                        <li>Why to use comments?</li> <!--Explain why comments are used-->
+<pre>    They are used for multiple purposes such as: explaining code or disabling code in development phase, and so on.</pre>                        
                     </ul>
                 </section>
                 <section class="section"> <!--section 3-->
-                    <h3 class="section-title" >1.3 HTML Headings</h3><!--section 1.3 header-->
+                    <h3 class="section-title" >2.3 Formatting Tags</h3><!--section 2.3 header-->
                     <ul>
-                        <li></li> <!--Explain <h1> to <h6>-->
+                        <li>HTML formatting types:</li> <!--- Explain and show examples of: `<b>`, `<strong>`, `<i>`, `<em>`, `<mark>`, `<small>`, `<del>`, `<ins>`, `<sub>`, `<sup>`-->
+<pre>    - &lt;b&gt; : Makes text <b>bold</b>. It is non-semantic.
+    - &lt;strong&gt; : Makes text <strong>bold</strong>. It is semantic.
+    - &lt;i&gt; : Makes text <i>italic</i>. It is non-semantic.
+    - &lt;em&gt; : Makes text <em>italic</em>. It is semantic.
+    - &lt;mark&gt; : It <mark>highlights</mark> the text with a yellow background.
+    - &lt;small&gt; : Makes the text <small>smaller</small> than normal text.
+    - &lt;del&gt; : Draws a line over <del>deleted text</del> like a strikeout.
+    - &lt;ins&gt; : Underlines <ins>inserted text</ins> to show it was added.
+    - &lt;sub&gt; : Makes text <sub>subscript</sub>.
+    - &lt;sup&gt; : Makes text <sup>superscript</sup>.</pre>
+                    </ul>
+                </section>
+                <section class="section"> <!--section 4-->
+                    <h3 class="section-title" >2.4 Structural Tags</h3><!--section 2.4 header-->
+                    <ul>
+                        <li>Horizantal line</li> <!--Explain <hr>-->
+<pre>    &lt;hr&gt; : is for adding a Horizantal line.</pre>                        
+                        <li>preformatted text</li> <!--Explain <pre>-->
+<pre>    &lt;pre&gt; : it is used to keep the spaces , tabs and new lines in the paragraph unlike &lt;p&gt; because it gets rid of extra spaces</pre>                            
+                        <li>ex:</li> <!--Show examples-->
+<pre>    Here is how &lt;hr&gt; tag looks like</pre>
+                        <hr>
+<pre>
+    this                is a        &lt;pre&gt;
+    with         a          certain   format  and   spaces </pre>
+                    </ul>
+                </section>
+                <section class="section"> <!--section 5-->
+                    <h3 class="section-title" >1.5 HTML Text Formatting</h3><!--section 1.5 header-->
+                    <ul>
+                        <li></li> <!--Explain: <b>, <strong>, <i>, <em>-->
+                        <li></li> <!--Explain the difference between semantic and non-semantic tags-->
+                    </ul>
+                </section>
+                <section class="section"> <!--section 6-->
+                    <h3 class="section-title" >1.6 Inline vs Block Elements</h3><!--section 1.6 header-->
+                    <ul>
+                        <li></li> <!--Define Block elements-->
+                        <li></li> <!--Define Inline elements-->
+                        <li></li> <!--Give examples of each-->
                         <li>
                             <pre>
                                 <code>
                                     
                                 </code>
                             </pre>
-                        </li> <!--Show examples-->
-                        <li></li> <!--Explain when to use each-->
+                        </li> <!--Explain the difference-->
+                    </ul>
+                </section>
+            </section>   
+        </section>
+        <section class="module"> <!--Module 3 section-->
+            <h2 class="module-title" >Module 3: Media and Embedded Content</h2><!--Module 3 title-->
+            
+            <section class="sections"> <!--sections-->
+                <section class="section"> <!--section 1-->
+                    <h3 class="section-title" >3.1 Audio Element</h3><!--section 3.1 header-->
+                    <ul>
+                        <li>What does title tag do?</li><!--Explain <audio>-->
+                        <li>What does meta tag do?</li><!--Explain attributes: controls, autoplay, muted, loop-->
+                        <li>What does link tag do?</li> <!--Show example-->
+                    </ul>
+                </section>
+                <section class="section"> <!--section 2-->
+                    <h3 class="section-title" >3.2 Video Element</h3><!--section 2.2 header-->
+                    <ul>
+                        <li></li> <!--Explain <video>-->
+                        <li></li> <!--Explain controls-->
+                        <li></li> <!--Show example-->
+                    </ul>
+                </section>
+                <section class="section"> <!--section 3-->
+                    <h3 class="section-title" >3.3 iframe</h3><!--section 3.3 header-->
+                    <ul>
+                        <li></li> <!--Explain <iframe>-->
+                        <li></li> <!--Show example embedding YouTube video-->
+                        <li></li> <!--Explain attributes: width, height, src-->
                     </ul>
                 </section>
                 <section class="section"> <!--section 4-->
